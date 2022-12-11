@@ -14,7 +14,52 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@jurgen-app/electron/feature-dashboard": [
+        "libs/electron/feature-dashboard/src/index.ts"
+      ],
+      "@jurgen-app/electron/feature-shell": [
+        "libs/electron/feature-shell/src/index.ts"
+      ],
+      "@jurgen-app/libs/electron/feature-dashboard": [
+        "libs/libs/electron/feature-dashboard/src/index.ts"
+      ],
+      "@jurgen-app/shared/data-access": [
+        "libs/shared/data-access/src/index.ts"
+      ],
+      "@jurgen-app/shared/ui-charts": ["libs/shared/ui-charts/src/index.ts"],
+      "@jurgen-app/shared/ui-dashboard": [
+        "libs/shared/ui-dashboard/src/index.ts"
+      ],
+      "@jurgen-app/shared/ui-data-table": [
+        "libs/shared/ui-data-table/src/index.ts"
+      ],
+      "@jurgen-app/shared/util-auth": ["libs/shared/util-auth/src/index.ts"],
+      "@jurgen-app/shared/util-post-message": [
+        "libs/shared/util-post-message/src/index.ts"
+      ],
+      "@jurgen-app/shared/util-workbox": [
+        "libs/shared/util-workbox/src/index.ts"
+      ],
+      "@jurgen-app/ui": ["libs/ui/src/index.ts"],
+      "@jurgen-app/web/feature-dashboard": [
+        "libs/web/feature-dashboard/src/index.ts"
+      ],
+      "@jurgen-app/web/feature-shell": ["libs/web/feature-shell/src/index.ts"],
+      "@jurgen-app/windows-desktop/feature-dashboard": [
+        "libs/windows-desktop/feature-dashboard/src/index.ts"
+      ],
+      "@jurgen-app/windows-desktop/feature-shell": [
+        "libs/windows-desktop/feature-shell/src/index.ts"
+      ],
+      "@jurgen-app/windows-mobile/feature-dashboard": [
+        "libs/windows-mobile/feature-dashboard/src/index.ts"
+      ],
+      "@jurgen-app/windows-mobile/feature-shell": [
+        "libs/windows-mobile/feature-shell/src/index.ts"
+      ],
+      "@jurgen-app/windows/ui-icons": ["libs/windows/ui-icons/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
