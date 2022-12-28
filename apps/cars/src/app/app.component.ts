@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Car } from 'libs/interfaces/car';
 
 @Component({
   selector: 'jurgen-app-root',
@@ -7,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'cars';
-  cars = [
+  cars: Car[] = [
     {
       name: 'bmw',
       model: '2020',

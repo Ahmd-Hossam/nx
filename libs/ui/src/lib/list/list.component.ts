@@ -1,3 +1,4 @@
+import { Car } from './../../../../interfaces/car';
 import { Component, Input } from '@angular/core';
 
 @Component({
@@ -6,5 +7,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./list.component.scss'],
 })
 export class ListComponent {
-  @Input() cars: any;
+  @Input() cars: Car[] = [];
 }

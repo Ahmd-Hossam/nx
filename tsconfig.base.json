@@ -58,7 +58,8 @@
       "@jurgen-app/windows-mobile/feature-shell": [
         "libs/windows-mobile/feature-shell/src/index.ts"
       ],
-      "@jurgen-app/windows/ui-icons": ["libs/windows/ui-icons/src/index.ts"]
+      "@jurgen-app/windows/ui-icons": ["libs/windows/ui-icons/src/index.ts"],
+      "@marketplace-monorepo": ["libs/card-lib/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
